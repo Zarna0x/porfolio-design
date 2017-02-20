@@ -44,9 +44,9 @@
     <h1>We Build</h1>
 
     <div class="row" id="lst">
-      <div  class="col-md-4 lst"><i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i></div>
-      <div class="col-md-4 lst"><i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i></div>
-      <div class="col-md-4 lst"><i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i></div>
+      <div  class="col-md-4 lst"><i class="fa fa-html5 fa-5x" aria-hidden="true"></i></div>
+      <div class="col-md-4 lst"><i class="fa fa-css3 fa-5x" aria-hidden="true"></i></div>
+      <div class="col-md-4 lst"><i class="fa fa-users fa-5x" aria-hidden="true"></i></div>
     </div>
   </div>
        </div>
@@ -106,7 +106,19 @@
 <!-- /banner -->
 
 
-<div  class="container">
+<div id="banner-video">
+   <video loop muted autoplay poster="#" class="video-background">
+           <source src="vid/hero.mp4" type="video/mp4">
+      </video>
+ 
+<div class="overlay" id="overtext">
+   <h1>Contact Us</h1>
+</div>
+
+</div>
+
+
+<div div="contactdiv" class="container">
     <div  id="contact" class="row">
        <div class="col-md-3">
          <h3>Contact</h3>
@@ -186,7 +198,7 @@
  </footer>
 <!--Footer-->
 
-<!--@URL https://zarnatestenvato.000webhostapp.com -->
+
   <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
